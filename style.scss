@@ -1,0 +1,123 @@
+* {
+    margin:0;
+}
+
+body {
+    background: #6c5ce7;    
+    color:white;
+    position: relative;
+}
+
+h1 { 
+    
+    font-family: 'Anton', sans-serif;
+    font-size: 5em;
+    text-transform: uppercase;
+    color:#e84393;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    color:#b2bec3;
+    text-align: center;
+}
+
+p {
+    width: 400px;
+    margin:0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container  {
+    display: flex;
+    justify-content: center;
+
+    .left, .right {
+        border:3px solid white;
+        width: 350px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15em;
+        font-family: 'Anton', sans-serif;
+        position: relative;
+    }
+
+    .left:before {
+        content:'YOU';
+        position: absolute;
+        width:100px;
+        text-align: center;
+        border:1px solid red;
+        top:-20px;
+        font-size: 0.1em;
+        background: #e84393;
+    }
+
+    .right:before {
+        content:'CPU';
+        position: absolute;
+        width:100px;
+        text-align: center;
+        border:1px solid red;
+        top:-20px;
+        font-size: 0.1em;
+        background: #e84393;
+    }
+
+
+}
+
+.container2  {
+    display: flex;
+    justify-content: space-around;
+    width:30%;
+    margin:0 auto;
+
+}
+
+
+.scissor, .rock, .paper {
+    transition: color 0.1s ease-in;
+    cursor: pointer;
+}
+.scissor:hover {
+  color:#e84393;
+  
+}
+
+.rock:hover {
+    color:#e84393;
+  }
+  
+.paper:hover {
+    color:#e84393;
+  }
+
+.green {
+    border:2px solid red;
+}
+
+.loadin {
+    position: absolute;
+    background:#203A43;
+    width: 100vw;
+    min-height:100vh ;
+    z-index: 5;
+
+    p {
+        width: 600px;
+        margin:50px auto;
+        text-align: center;
+        font-size: 2em;
+        text-transform: uppercase;
+        color:#0F2027;
+        font-weight: bold;
+    }
+
+}
