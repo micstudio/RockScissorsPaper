@@ -31,7 +31,9 @@ p {
     font-size: 20px;
     text-align: center;
 }
-
+// .left, .right {
+//     border:5px solid red !important;
+// }
 .container  {
     display: flex;
     justify-content: center;
@@ -100,7 +102,12 @@ p {
   }
 
 .green {
-    border:2px solid red;
+    border:3px solid green !important;
+}
+
+.draw {
+    border:3px solid red !important;
+    
 }
 
 .loadin {

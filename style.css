@@ -109,7 +109,11 @@ p {
 }
 
 .green {
-  border: 2px solid red;
+  border: 3px solid green !important;
+}
+
+.draw {
+  border: 3px solid red !important;
 }
 
 .loadin {
